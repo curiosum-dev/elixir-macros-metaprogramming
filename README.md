@@ -1,0 +1,10 @@
+This is a companion repository for the ["Elixir Trickery: Using Macros and Metaprogramming Without Superpowers"](https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&amp;utm_medium=social) article published at [curiosum.dev](https://curiosum.dev).
+
+## Outline
+
+1. <a href="https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&utm_medium=social#axioms" target="_blank">The axioms to keep in mind</a>: The truth about the nature of code, macros and functions in Elixir that you need to realize before reasoning about metaprogramming.
+2. <a href="https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&utm_medium=social#meta" target="_blank">Metaprogramming at its core: code that generates code</a>: The core difference between how Elixir understands metaprogramming and how it works in many popular languages.
+3. <a href="https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&utm_medium=social#ast" target="_blank">AST: Tree representation of code</a>: The internal representation of code in Elixir and how it can be manipulated and accessed.
+4. <a href="https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&utm_medium=social#macros-ast" target="_blank">Macros as functions manipulating ASTs</a>: On the nature of Elixir macros which are little more than a tool to transform abstract syntax trees, with some syntactic sugar to make it feel more natural.
+5. <a href="https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&utm_medium=social#quote" target="_blank">The way to understand `quote` and `unquote`</a>: Explaining how quoting and unquoting to code is like interpolation to strings.
+6. <a href="https://curiosum.dev/blog/elixir-trickery-using-macros-metaprogramming?utm_source=github&utm_medium=social#wrapping-up">Wrapping up: Which approach to use when creating macros?</a>: Why and when to use either macro creation strategy described in the article.
